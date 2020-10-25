@@ -36,8 +36,6 @@ with gzip.open(gff,"rt") as fh:
     # now add code to process this
     gff = csv.reader(fh,delimiter="\t")
     for row in gff:
-#        print(row)
+        if row[0].startswith("#"):
+            continue
         print(row[3],row[6])
-        m = re.match('Chr',row[0])
-        if m:
-            print("line matches",row[0])
