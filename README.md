@@ -15,6 +15,8 @@ the location of genes and exons locations. Remember
 structured format, tab delimited, which describes locations of
 features in a genome.
 
+Coding features are the type which code for proteins. These are writted as 'CDS' in the GFF file. You can also use 'gene' features.  For the purposes here you don't need to worry about possibility of overlapping genes though you are welcome to add that check to your code if you can figure out how to do that.
+
 Here is a GFF file for the E. coli K-12 genome. [ftp://ftp.ensemblgenomes.org/pub/bacteria/release-45/gff3/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/Escherichia_coli_str_k_12_substr_mg1655.ASM584v2.37.gff3.gz](ftp://ftp.ensemblgenomes.org/pub/bacteria/release-45/gff3/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/Escherichia_coli_str_k_12_substr_mg1655.ASM584v2.37.gff3.gz)
 
 Here is a FASTA file for the genome of E. coli K-12. [ftp://ftp.ensemblgenomes.org/pub/bacteria/release-45/fasta/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/dna/Escherichia_coli_str_k_12_substr_mg1655.ASM584v2.dna.chromosome.Chromosome.fa.gz](ftp://ftp.ensemblgenomes.org/pub/bacteria/release-45/fasta/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/dna/Escherichia_coli_str_k_12_substr_mg1655.ASM584v2.dna.chromosome.Chromosome.fa.gz)
